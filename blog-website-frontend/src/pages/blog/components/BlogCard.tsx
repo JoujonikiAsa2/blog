@@ -3,10 +3,23 @@ import { TBlogPost } from '@/types/blog'
 import { Box, Flex, HStack, Image, Text } from '@chakra-ui/react'
 import { BookmarkIcon, Eye, HeartIcon } from 'lucide-react'
 import { BiMessageRoundedAdd } from 'react-icons/bi'
-import { CiMenuKebab } from 'react-icons/ci'
+import DropDownMenu from './DropDownMenu'
+
+const style = {
+    borderRadius: '100px',
+    fontSize: '12px',
+    fontWeight: 400,
+}
+
+const customButtonStyle = {
+    color: 'white',
+    bgColor: '#003B95',
+    width: 'content-fit',
+    height: 6,
+    sx: { ...style },
+}
 
 const BlogCard = ({ data }: { data: TBlogPost }) => {
-    console.log(data)
     return (
         <Flex
             direction={'column'}
@@ -33,33 +46,17 @@ const BlogCard = ({ data }: { data: TBlogPost }) => {
                         align={'center'}
                         justify={'center'}
                     >
-                        <CiMenuKebab />
+                        <DropDownMenu id={data.id} />
                     </Flex>
                 </Flex>
                 <HStack>
                     <CustomButton
-                        color="white"
-                        bgColor="#003B95"
-                        width={'content-fit'}
-                        height={6}
                         text={data?.category}
-                        sx={{
-                            borderRadius: '100px',
-                            fontSize: '12px',
-                            fontWeight: 400,
-                        }}
+                        {...customButtonStyle}
                     />
                     <CustomButton
-                        color="white"
-                        bgColor="#003B95"
-                        width={'content-fit'}
-                        height={6}
+                        {...customButtonStyle}
                         text={data?.subcategory}
-                        sx={{
-                            borderRadius: '100px',
-                            fontSize: '12px',
-                            fontWeight: 400,
-                        }}
                     />
                 </HStack>
                 <Text fontSize={16} fontWeight={400}>
@@ -141,21 +138,12 @@ const BlogCard = ({ data }: { data: TBlogPost }) => {
                 <Box>
                     <CustomButton
                         text="Follow"
-                        color="white"
-                        bgColor="#003B95"
-                        width={'100px'}
-                        height={'30px'}
+                        {...customButtonStyle}
                         icon={<BiMessageRoundedAdd color="white" size={16} />}
-                        sx={{
-                            borderRadius: '100px',
-                            fontSize: '12px',
-                            fontWeight: 400,
-                        }}
                     ></CustomButton>
                 </Box>
             </Flex>
         </Flex>
     )
 }
-
 export default BlogCard

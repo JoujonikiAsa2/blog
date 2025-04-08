@@ -1,4 +1,5 @@
 export type TBlogPost = {
+    id: string;
     authorname: string;
     blogtitle: string;
     publicationdate: string;
@@ -8,4 +9,6 @@ export type TBlogPost = {
     traveltags: string;
     maincontent: string;
     images: string[];
+    created_at: string;
+    updated_at: string;
   };
