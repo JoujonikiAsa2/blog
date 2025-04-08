@@ -1,0 +1,282 @@
+[
+    {
+        "authorName": "John Doe",
+        "blogTitle": "Exploring the Hidden Gems of Bali",
+        "publicationDate": "15/10/2025",
+        "category": "Travel",
+        "subCategory": ["Adventure", "Culture"],
+        "summary": "A journey through Bali's lesser-known spots, from hidden waterfalls to ancient temples.",
+        "travelTags": ["Bali", "Southeast Asia", "Island Life"],
+        "mainContent": "Bali is often associated with its bustling beaches and vibrant nightlife, but there’s so much more to this Indonesian island. In this blog, I’ll take you through some of the hidden gems I discovered during my two-week adventure. From the serene Sekumpul Waterfall, tucked away in the northern jungles, to the ancient Pura Lempuyang temple with its breathtaking views of Mount Agung, these spots offer a glimpse into Bali’s untouched beauty. Along the way, I’ll share tips on local cuisine, cultural etiquette, and the best times to visit these off-the-beaten-path destinations.",
+        "images": [
+            "https://res.cloudinary.com/your-cloud-name/image/upload/v1234567890/bali-waterfall.jpg",
+            "https://res.cloudinary.com/your-cloud-name/image/upload/v1234567890/pura-lempuyang.jpg"
+        ]
+    },
+    {
+        "authorName": "Sarah Smith",
+        "blogTitle": "A Foodie’s Guide to Tokyo",
+        "publicationDate": "20/09/2025",
+        "category": "Food",
+        "subCategory": ["Cuisine", "City Guide"],
+        "summary": "Discover the best street food and hidden restaurants in Tokyo.",
+        "travelTags": ["Tokyo", "Japan", "Foodie"],
+        "mainContent": "Tokyo is a paradise for food lovers, offering everything from Michelin-starred sushi to humble street stalls. In this guide, I’ll take you through my favorite spots, including a tiny ramen shop in Shibuya that locals swear by and a hidden izakaya in Shinjuku where you can try authentic Japanese dishes. Don’t miss the Tsukiji Fish Market for the freshest sushi breakfast you’ll ever have. I’ll also share tips on navigating Tokyo’s food scene and the best times to visit for seasonal delicacies.",
+        "images": [
+            "https://res.cloudinary.com/your-cloud-name/image/upload/v1234567890/tokyo-ramen.jpg",
+            "https://res.cloudinary.com/your-cloud-name/image/upload/v1234567890/tsukiji-market.jpg"
+        ]
+    },
+    {
+        "authorName": "Michael Brown",
+        "blogTitle": "Hiking the Inca Trail to Machu Picchu",
+        "publicationDate": "05/08/2025",
+        "category": "Travel",
+        "subCategory": ["Adventure", "History"],
+        "summary": "A detailed account of my four-day hike to the ancient ruins of Machu Picchu.",
+        "travelTags": ["Machu Picchu", "Peru", "Hiking"],
+        "mainContent": "The Inca Trail is one of the most iconic hikes in the world, leading to the breathtaking ruins of Machu Picchu. Over four days, I trekked through rugged mountains, lush jungles, and ancient Incan sites, culminating in a sunrise view of Machu Picchu that I’ll never forget. In this blog, I’ll share my packing list, tips for dealing with altitude sickness, and what to expect from the trail’s challenging terrain. Whether you’re an experienced hiker or a first-timer, this guide will help you prepare for the adventure of a lifetime.",
+        "images": [
+            "https://res.cloudinary.com/your-cloud-name/image/upload/v1234567890/inca-trail.jpg",
+            "https://res.cloudinary.com/your-cloud-name/image/upload/v1234567890/machu-picchu.jpg"
+        ]
+    },
+    {
+        "authorName": "Emily Johnson",
+        "blogTitle": "The Best Cafes in Paris for Digital Nomads",
+        "publicationDate": "12/07/2025",
+        "category": "Lifestyle",
+        "subCategory": ["Work", "City Guide"],
+        "summary": "A curated list of Paris cafes perfect for remote work.",
+        "travelTags": ["Paris", "France", "Digital Nomad"],
+        "mainContent": "Paris is a dream destination for digital nomads, with its charming cafes and reliable Wi-Fi. In this post, I’ve rounded up the best cafes for working remotely, from the cozy La Caféothèque near the Seine to the trendy KB CaféShop in Montmartre. I’ll share details on Wi-Fi speeds, power outlet availability, and the best coffee and pastries to try at each spot. Whether you’re a freelancer or a remote worker, these cafes will make your Parisian workdays both productive and delightful.",
+        "images": [
+            "https://res.cloudinary.com/your-cloud-name/image/upload/v1234567890/paris-cafe.jpg",
+            "https://res.cloudinary.com/your-cloud-name/image/upload/v1234567890/kb-cafeshop.jpg"
+        ]
+    },
+    {
+        "authorName": "David Lee",
+        "blogTitle": "Skiing in the Swiss Alps: A Beginner’s Guide",
+        "publicationDate": "25/06/2025",
+        "category": "Travel",
+        "subCategory": ["Adventure", "Winter Sports"],
+        "summary": "Tips and tricks for your first skiing trip in the Swiss Alps.",
+        "travelTags": ["Swiss Alps", "Switzerland", "Skiing"],
+        "mainContent": "The Swiss Alps are a bucket-list destination for skiers, but they can be intimidating for beginners. In this guide, I’ll walk you through my first skiing experience in Zermatt, from choosing the right gear to navigating the slopes. I’ll also recommend beginner-friendly trails, the best ski schools, and cozy chalets for après-ski relaxation. With stunning views of the Matterhorn and powdery snow, the Swiss Alps are the perfect place to learn this exhilarating sport.",
+        "images": [
+            "https://res.cloudinary.com/your-cloud-name/image/upload/v1234567890/zermatt-ski.jpg",
+            "https://res.cloudinary.com/your-cloud-name/image/upload/v1234567890/matterhorn.jpg"
+        ]
+    },
+    {
+        "authorName": "Lisa Chen",
+        "blogTitle": "A Weekend in New York City: The Ultimate Itinerary",
+        "publicationDate": "30/05/2025",
+        "category": "Travel",
+        "subCategory": ["City Guide", "Culture"],
+        "summary": "How to make the most of a weekend in NYC.",
+        "travelTags": ["New York City", "USA", "Weekend Trip"],
+        "mainContent": "New York City is a whirlwind of energy, and a weekend isn’t nearly enough to see it all—but you can still hit the highlights! In this itinerary, I’ll guide you through 48 hours in NYC, from catching a Broadway show to strolling through Central Park. Don’t miss the view from the Top of the Rock, a slice of pizza at Joe’s, and a sunset walk across the Brooklyn Bridge. I’ll also share tips on navigating the subway and avoiding tourist traps.",
+        "images": [
+            "https://res.cloudinary.com/your-cloud-name/image/upload/v1234567890/central-park.jpg",
+            "https://res.cloudinary.com/your-cloud-name/image/upload/v1234567890/brooklyn-bridge.jpg"
+        ]
+    },
+    {
+        "authorName": "Mark Wilson",
+        "blogTitle": "The Best Street Art in Berlin",
+        "publicationDate": "10/04/2025",
+        "category": "Art",
+        "subCategory": ["Culture", "City Guide"],
+        "summary": "Exploring Berlin’s vibrant street art scene.",
+        "travelTags": ["Berlin", "Germany", "Street Art"],
+        "mainContent": "Berlin is a canvas for street artists, with murals and graffiti covering walls across the city. In this post, I’ll take you on a tour of the best street art spots, from the East Side Gallery (a remaining section of the Berlin Wall) to the colorful alleys of Kreuzberg. I’ll also highlight works by famous artists like Blu and ROA, and share tips on joining street art tours to learn more about the city’s creative culture.",
+        "images": [
+            "https://res.cloudinary.com/your-cloud-name/image/upload/v1234567890/east-side-gallery.jpg",
+            "https://res.cloudinary.com/your-cloud-name/image/upload/v1234567890/kreuzberg-mural.jpg"
+        ]
+    },
+    {
+        "authorName": "Anna Taylor",
+        "blogTitle": "A Guide to Sustainable Travel in Costa Rica",
+        "publicationDate": "18/03/2025",
+        "category": "Travel",
+        "subCategory": ["Eco-Friendly", "Adventure"],
+        "summary": "How to travel sustainably in Costa Rica.",
+        "travelTags": ["Costa Rica", "Central America", "Sustainable Travel"],
+        "mainContent": "Costa Rica is a leader in sustainable tourism, with its lush rainforests, pristine beaches, and commitment to eco-friendly practices. In this guide, I’ll share how to travel responsibly, from staying at eco-lodges in Monteverde to supporting local communities in Tortuguero. Learn about the best national parks for wildlife spotting, tips for reducing your carbon footprint, and how to participate in sea turtle conservation efforts.",
+        "images": [
+            "https://res.cloudinary.com/your-cloud-name/image/upload/v1234567890/monteverde.jpg",
+            "https://res.cloudinary.com/your-cloud-name/image/upload/v1234567890/tortuguero.jpg"
+        ]
+    },
+    {
+        "authorName": "James Carter",
+        "blogTitle": "The Ultimate Guide to Italian Wine Tasting",
+        "publicationDate": "22/02/2025",
+        "category": "Food",
+        "subCategory": ["Wine", "Culture"],
+        "summary": "Discover the best regions for wine tasting in Italy.",
+        "travelTags": ["Italy", "Wine Tasting", "Tuscany"],
+        "mainContent": "Italy is synonymous with wine, and there’s no better way to experience it than by visiting its renowned wine regions. In this guide, I’ll take you through Tuscany’s Chianti region, Piedmont’s Barolo vineyards, and the prosecco hills of Veneto. I’ll share tips on booking winery tours, pairing wines with local dishes, and the best times to visit for harvest festivals. Cheers to an unforgettable Italian wine adventure!",
+        "images": [
+            "https://res.cloudinary.com/your-cloud-name/image/upload/v1234567890/tuscany-vineyard.jpg",
+            "https://res.cloudinary.com/your-cloud-name/image/upload/v1234567890/barolo-wine.jpg"
+        ]
+    },
+    {
+        "authorName": "Rachel Green",
+        "blogTitle": "Exploring the Temples of Angkor Wat",
+        "publicationDate": "05/01/2025",
+        "category": "Travel",
+        "subCategory": ["History", "Culture"],
+        "summary": "A guide to visiting the ancient temples of Angkor Wat.",
+        "travelTags": ["Angkor Wat", "Cambodia", "History"],
+        "mainContent": "Angkor Wat is a UNESCO World Heritage site and one of the most awe-inspiring places I’ve ever visited. In this blog, I’ll guide you through the sprawling temple complex, from the iconic sunrise at Angkor Wat to the overgrown ruins of Ta Prohm. I’ll share tips on hiring a guide, the best times to visit to avoid crowds, and how to explore nearby temples like Bayon and Banteay Srei.",
+        "images": [
+            "https://res.cloudinary.com/your-cloud-name/image/upload/v1234567890/angkor-wat.jpg",
+            "https://res.cloudinary.com/your-cloud-name/image/upload/v1234567890/ta-prohm.jpg"
+        ]
+    },
+    {
+        "authorName": "Tom Harris",
+        "blogTitle": "The Best Beaches in the Maldives",
+        "publicationDate": "28/12/2024",
+        "category": "Travel",
+        "subCategory": ["Beach", "Luxury"],
+        "summary": "A roundup of the most stunning beaches in the Maldives.",
+        "travelTags": ["Maldives", "Indian Ocean", "Beach"],
+        "mainContent": "The Maldives is a tropical paradise with some of the world’s most beautiful beaches. In this post, I’ll highlight my favorites, from the powdery white sands of Fulhadhoo to the bioluminescent shores of Vaadhoo Island. I’ll also share tips on choosing the right resort, snorkeling in the coral reefs, and planning a budget-friendly trip to this luxury destination.",
+        "images": [
+            "https://res.cloudinary.com/your-cloud-name/image/upload/v1234567890/fulhadhoo-beach.jpg",
+            "https://res.cloudinary.com/your-cloud-name/image/upload/v1234567890/vaadhoo-bioluminescence.jpg"
+        ]
+    },
+    {
+        "authorName": "Sophie Adams",
+        "blogTitle": "A Photographer’s Guide to Iceland",
+        "publicationDate": "15/11/2024",
+        "category": "Photography",
+        "subCategory": ["Travel", "Nature"],
+        "summary": "The best spots in Iceland for stunning photography.",
+        "travelTags": ["Iceland", "Photography", "Nature"],
+        "mainContent": "Iceland is a photographer’s dream, with its dramatic landscapes and otherworldly beauty. In this guide, I’ll share the best spots for capturing the Northern Lights, the black sand beaches of Reynisfjara, and the majestic waterfalls like Seljalandsfoss. I’ll also provide tips on the best camera settings, dealing with Iceland’s unpredictable weather, and planning your trip around the midnight sun or polar night.",
+        "images": [
+            "https://res.cloudinary.com/your-cloud-name/image/upload/v1234567890/northern-lights.jpg",
+            "https://res.cloudinary.com/your-cloud-name/image/upload/v1234567890/reynisfjara-beach.jpg"
+        ]
+    },
+    {
+        "authorName": "Chris Evans",
+        "blogTitle": "The Best Festivals in India",
+        "publicationDate": "02/10/2024",
+        "category": "Culture",
+        "subCategory": ["Festivals", "Travel"],
+        "summary": "A guide to experiencing India’s vibrant festivals.",
+        "travelTags": ["India", "Festivals", "Culture"],
+        "mainContent": "India’s festivals are a riot of color, music, and tradition. In this blog, I’ll take you through my experiences at Diwali in Jaipur, Holi in Vrindavan, and the Pushkar Camel Fair. I’ll share tips on what to wear, how to participate respectfully, and the best places to stay during these celebrations. Whether you’re a culture enthusiast or a curious traveler, these festivals will leave you with memories to last a lifetime.",
+        "images": [
+            "https://res.cloudinary.com/your-cloud-name/image/upload/v1234567890/diwali-jaipur.jpg",
+            "https://res.cloudinary.com/your-cloud-name/image/upload/v1234567890/holi-vrindavan.jpg"
+        ]
+    },
+    {
+        "authorName": "Laura King",
+        "blogTitle": "A Road Trip Through the Australian Outback",
+        "publicationDate": "20/09/2024",
+        "category": "Travel",
+        "subCategory": ["Adventure", "Road Trip"],
+        "summary": "An epic road trip through the heart of Australia.",
+        "travelTags": ["Australia", "Outback", "Road Trip"],
+        "mainContent": "The Australian Outback is a vast, rugged landscape that’s perfect for an adventurous road trip. In this post, I’ll guide you through my journey from Alice Springs to Uluru, with stops at Kings Canyon and the MacDonnell Ranges. I’ll share tips on renting a 4WD, packing for the desert, and spotting wildlife like kangaroos and emus. The highlight was watching the sunrise over Uluru—a moment I’ll never forget.",
+        "images": [
+            "https://res.cloudinary.com/your-cloud-name/image/upload/v1234567890/uluru-sunrise.jpg",
+            "https://res.cloudinary.com/your-cloud-name/image/upload/v1234567890/kings-canyon.jpg"
+        ]
+    },
+    {
+        "authorName": "Peter Nguyen",
+        "blogTitle": "The Best Markets in Marrakech",
+        "publicationDate": "10/08/2024",
+        "category": "Travel",
+        "subCategory": ["Culture", "Shopping"],
+        "summary": "A guide to navigating Marrakech’s bustling souks.",
+        "travelTags": ["Marrakech", "Morocco", "Markets"],
+        "mainContent": "Marrakech’s souks are a sensory overload, filled with vibrant colors, exotic spices, and handmade crafts. In this guide, I’ll take you through my favorite markets, from the bustling Jemaa el-Fnaa to the quieter Souk des Teinturiers, where you can watch artisans dye fabrics. I’ll share tips on bargaining, what to buy (like a Berber rug or Moroccan lamp), and how to avoid getting lost in the maze-like alleys.",
+        "images": [
+            "https://res.cloudinary.com/your-cloud-name/image/upload/v1234567890/jemaa-el-fnaa.jpg",
+            "https://res.cloudinary.com/your-cloud-name/image/upload/v1234567890/souk-teinturiers.jpg"
+        ]
+    },
+    {
+        "authorName": "Emma Davis",
+        "blogTitle": "A Guide to Cherry Blossom Season in Kyoto",
+        "publicationDate": "05/07/2024",
+        "category": "Travel",
+        "subCategory": ["Culture", "Nature"],
+        "summary": "How to experience cherry blossoms in Kyoto.",
+        "travelTags": ["Kyoto", "Japan", "Cherry Blossoms"],
+        "mainContent": "Cherry blossom season in Kyoto is magical, with pink petals blanketing the city’s temples and gardens. In this guide, I’ll share the best spots for hanami (flower viewing), including Maruyama Park and the Philosopher’s Path. I’ll also recommend the best times to visit, how to book a spot for a cherry blossom picnic, and where to try seasonal sakura-themed treats. Don’t miss the evening illuminations at Kiyomizu-dera!",
+        "images": [
+            "https://res.cloudinary.com/your-cloud-name/image/upload/v1234567890/maruyama-park.jpg",
+            "https://res.cloudinary.com/your-cloud-name/image/upload/v1234567890/philosophers-path.jpg"
+        ]
+    },
+    {
+        "authorName": "Alex Turner",
+        "blogTitle": "The Best Diving Spots in the Great Barrier Reef",
+        "publicationDate": "18/06/2024",
+        "category": "Travel",
+        "subCategory": ["Adventure", "Marine Life"],
+        "summary": "A diver’s guide to the Great Barrier Reef.",
+        "travelTags": ["Great Barrier Reef", "Australia", "Diving"],
+        "mainContent": "The Great Barrier Reef is the world’s largest coral reef system and a diver’s paradise. In this post, I’ll share my favorite dive sites, from the vibrant corals of Agincourt Reef to the shark-filled waters of Osprey Reef. I’ll also provide tips on choosing a dive operator, the best times to visit for clear visibility, and how to dive responsibly to protect this fragile ecosystem.",
+        "images": [
+            "https://res.cloudinary.com/your-cloud-name/image/upload/v1234567890/agincourt-reef.jpg",
+            "https://res.cloudinary.com/your-cloud-name/image/upload/v1234567890/osprey-reef.jpg"
+        ]
+    },
+    {
+        "authorName": "Olivia Brown",
+        "blogTitle": "A Cultural Journey Through Istanbul",
+        "publicationDate": "30/05/2024",
+        "category": "Travel",
+        "subCategory": ["Culture", "History"],
+        "summary": "Exploring the rich history and culture of Istanbul.",
+        "travelTags": ["Istanbul", "Turkey", "Culture"],
+        "mainContent": "Istanbul is a city where East meets West, with a history spanning centuries. In this blog, I’ll take you through the Hagia Sophia, the Blue Mosque, and the bustling Grand Bazaar. I’ll also share my experience at a traditional Turkish bath and the best spots for authentic Turkish delight. Don’t miss a Bosphorus cruise for stunning views of the city’s skyline.",
+        "images": [
+            "https://res.cloudinary.com/your-cloud-name/image/upload/v1234567890/hagia-sophia.jpg",
+            "https://res.cloudinary.com/your-cloud-name/image/upload/v1234567890/bosphorus-cruise.jpg"
+        ]
+    },
+    {
+        "authorName": "Henry Clark",
+        "blogTitle": "The Best Hikes in Banff National Park",
+        "publicationDate": "12/04/2024",
+        "category": "Travel",
+        "subCategory": ["Adventure", "Nature"],
+        "summary": "A guide to the best hiking trails in Banff.",
+        "travelTags": ["Banff", "Canada", "Hiking"],
+        "mainContent": "Banff National Park is a hiker’s paradise, with turquoise lakes, towering mountains, and abundant wildlife. In this guide, I’ll share my favorite trails, from the scenic Lake Louise Lakeshore Trail to the challenging Plain of Six Glaciers. I’ll also provide tips on bear safety, the best times to hike for wildflower blooms, and where to stay in Banff for easy trail access.",
+        "images": [
+            "https://res.cloudinary.com/your-cloud-name/image/upload/v1234567890/lake-louise.jpg",
+            "https://res.cloudinary.com/your-cloud-name/image/upload/v1234567890/plain-six-glaciers.jpg"
+        ]
+    },
+    {
+        "authorName": "Mia Lewis",
+        "blogTitle": "A Food Lover’s Guide to Barcelona",
+        "publicationDate": "25/03/2024",
+        "category": "Food",
+        "subCategory": ["Cuisine", "City Guide"],
+        "summary": "The best places to eat in Barcelona.",
+        "travelTags": ["Barcelona", "Spain", "Foodie"],
+        "mainContent": "Barcelona is a food lover’s dream, with its tapas bars, seafood markets, and Michelin-starred restaurants. In this guide, I’ll take you through my favorite spots, from the bustling La Boqueria market to the cozy El Xampanyet for cava and tapas. I’ll also share tips on ordering like a local, the best times to visit for fresh Catalan dishes, and how to join a food tour for an authentic experience.",
+        "images": [
+            "https://res.cloudinary.com/your-cloud-name/image/upload/v1234567890/la-boqueria.jpg",
+            "https://res.cloudinary.com/your-cloud-name/image/upload/v1234567890/el-xampanyet.jpg"
+        ]
+    }
+]
