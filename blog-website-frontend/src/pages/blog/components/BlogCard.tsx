@@ -3,8 +3,7 @@ import { TBlogPost } from '@/types/blog'
 import { Box, Flex, HStack, Image, Text } from '@chakra-ui/react'
 import { BookmarkIcon, Eye, HeartIcon } from 'lucide-react'
 import { BiMessageRoundedAdd } from 'react-icons/bi'
-import { CiMenuKebab } from "react-icons/ci";
-
+import { CiMenuKebab } from 'react-icons/ci'
 
 const BlogCard = ({ data }: { data: TBlogPost }) => {
     console.log(data)
@@ -12,7 +11,7 @@ const BlogCard = ({ data }: { data: TBlogPost }) => {
         <Flex
             direction={'column'}
             background={'#FFFFFF'}
-            maxWidth={416}
+            width={416}
             height={510}
             border={'1px solid #A8C8E1'}
             borderRadius={'16px'}
@@ -24,9 +23,18 @@ const BlogCard = ({ data }: { data: TBlogPost }) => {
             <Flex direction={'column'} gap={2}>
                 <Flex justify={'space-between'} align={'center'}>
                     <Text fontSize={20} fontWeight={700}>
-                        {data.blogtitle}
+                        {data?.blogtitle?.slice(0, 20) + '...'}
                     </Text>
-                    <CiMenuKebab />
+                    <Flex
+                        border={'1px solid #7099C8'}
+                        borderRadius={'100px'}
+                        width={30}
+                        height={30}
+                        align={'center'}
+                        justify={'center'}
+                    >
+                        <CiMenuKebab />
+                    </Flex>
                 </Flex>
                 <HStack>
                     <CustomButton
@@ -93,16 +101,19 @@ const BlogCard = ({ data }: { data: TBlogPost }) => {
                     <BookmarkIcon />
                 </Flex>
             </Flex>
-            <Flex justify={'space-between'} gap={2}>
-                <Box bgColor={'#C40FF0'} width={177} height={120}></Box>
-                <Box bgColor={'#C40FF0'} width={177} height={120}></Box>
-                <Box bgColor={'#C40FF0'} width={177} height={120}></Box>
+            <Flex gap={2}>
+                {data?.images?.map((image, index) => (
+                    <Image
+                        key={index}
+                        src={image}
+                        width={100}
+                        height={100}
+                        objectFit={'cover'}
+                        borderRadius={'16px'}
+                    />
+                ))}
             </Flex>
-            <Flex
-                justify={'space-between'}
-                align={'center'}
-                gap={2}
-            >
+            <Flex justify={'space-between'} align={'center'} gap={2}>
                 <Flex gap={2} align={'center'}>
                     <Image
                         src="https://images.unsplash.com/photo-1511367461989-f85a21fda167?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvZmlsZXxlbnwwfHwwfHx8MA%3D%3D"

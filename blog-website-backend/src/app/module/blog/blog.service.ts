@@ -1,3 +1,4 @@
+import config from "../../config";
 import { supabase } from "../../utils/supabaseClient";
 import { TBlogPost } from "./blog.interface";
 
@@ -20,7 +21,6 @@ const getBlogById = async (id: string): Promise<TBlogPost | null> => {
 const createBlog = async (
   blog: Omit<TBlogPost, "id" | "created_at" | "updated_at">
 ): Promise<TBlogPost> => {
-  console.log(blog);
   const { data, error } = await supabase
     .from("blogs")
     .insert(blog)

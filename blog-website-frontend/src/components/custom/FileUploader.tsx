@@ -16,12 +16,14 @@ interface FileUploaderProps {
     name: string
     label: string
     control: Control<any>
+    setFile: any
 }
 
-const FileUploader: React.FC<FileUploaderProps> = ({
+export const FileUploader: React.FC<FileUploaderProps> = ({
     name,
     label,
     control,
+    setFile
 }) => {
     const {
         field: { onChange, value },
@@ -35,8 +37,15 @@ const FileUploader: React.FC<FileUploaderProps> = ({
         multiple: true,
         onDrop: acceptedFiles => {
             onChange(acceptedFiles)
+
         },
     })
+
+    if(value?.length > 0){
+        setFile(value)
+    }
+
+    console.log(value)
 
     return (
         <HStack>
@@ -89,5 +98,3 @@ const FileUploader: React.FC<FileUploaderProps> = ({
         </HStack>
     )
 }
-
-export default FileUploader

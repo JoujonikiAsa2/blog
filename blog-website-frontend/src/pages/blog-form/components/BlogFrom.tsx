@@ -5,15 +5,16 @@ import { CustomForm } from '@/components/custom/CustomForm'
 import { CustomSelect } from '@/components/custom/CustomSelect'
 import { CustomTextArea } from '@/components/custom/CustomTextArea'
 import { CustomTextInput } from '@/components/custom/CustomTextInput'
-import FileUploader from '@/components/custom/FileUploader'
+import {FileUploader} from '@/components/custom/FileUploader'
 import { HStack, VStack } from '@chakra-ui/react'
 
 type TBlogFromProps = {
     onSubmit: any
     control: any
+    setFile: any
 }
 
-export const BlogFrom = ({ onSubmit, control }: TBlogFromProps) => {
+export const BlogFrom = ({ onSubmit, control, setFile }: TBlogFromProps) => {
     return (
         <CustomForm onSubmit={onSubmit}>
             <VStack spacing={2} alignItems={'start'}>
@@ -76,6 +77,7 @@ export const BlogFrom = ({ onSubmit, control }: TBlogFromProps) => {
                     name="images"
                     label="Upload Image"
                     control={control}
+                    setFile={setFile}
                 />
             </VStack>
             <VStack mt={32}>

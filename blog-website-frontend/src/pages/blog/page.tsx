@@ -17,7 +17,7 @@ export default function BlogPage() {
                 console.log(data)
                 setBlogs(data)
             })
-    }, [])
+    }, [blogs])
 
     console.log(blogs)
     return (
@@ -39,10 +39,10 @@ export default function BlogPage() {
                     justifyContent={'center'}
                     justifyItems={'center'}
                 >
-                    {blogs && blogs?.slice(0,9)
-                        .map((blog:TBlogPost, index) => (
+                    {blogs &&
+                        blogs?.map((blog: TBlogPost, index) => (
                             <GridItem key={index}>
-                                <BlogCard key={index} data={blog}/>
+                                <BlogCard key={index} data={blog} />
                             </GridItem>
                         ))}
                 </Grid>

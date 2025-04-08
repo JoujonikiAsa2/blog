@@ -1,11 +1,11 @@
 export type TBlogPost = {
-    authorName: string;
-    blogTitle: string;
-    publicationDate: string;
+    authorname: string;
+    blogtitle: string;
+    publicationdate: string;
     category: string;
-    subCategory: string;
+    subcategory: string;
     summary: string;
-    travelTags: string;
-    mainContent: string;
+    traveltags: string;
+    maincontent: string;
     images: string[];
   };

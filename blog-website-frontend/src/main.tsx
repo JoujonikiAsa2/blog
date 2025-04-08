@@ -5,6 +5,7 @@ import BlogPage from './pages/blog/page'
 import { ChakraProvider } from '@chakra-ui/react'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import BlogForm from './pages/blog-form/page'
+import { Toaster } from 'sonner';
 
 const router = createBrowserRouter([
     {
@@ -21,6 +22,7 @@ createRoot(document.getElementById('root')!).render(
     <StrictMode>
         <ChakraProvider>
             <RouterProvider router={router} />
+            <Toaster />
         </ChakraProvider>
     </StrictMode>,
 )
