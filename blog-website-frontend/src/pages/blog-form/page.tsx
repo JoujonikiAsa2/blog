@@ -10,7 +10,7 @@ export default function BlogForm() {
         data.file = fileNames
         console.log({ data })
     }
-    
+
     return (
         <Box background={'#E0F7FA'} minHeight={'100vh'}>
             <Box maxWidth={'1512px'} mx={'auto'} px={75} pt={57}>
