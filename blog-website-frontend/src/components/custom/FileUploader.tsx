@@ -7,7 +7,7 @@ import {
     VStack,
     List,
     ListItem,
-    HStack
+    HStack,
 } from '@chakra-ui/react'
 import { useDropzone } from 'react-dropzone'
 import { useController, Control } from 'react-hook-form'
@@ -45,45 +45,47 @@ const FileUploader: React.FC<FileUploaderProps> = ({
                     {label} :
                 </Text>
             </Box>
-            <Box
-                {...getRootProps()}
-                border="1px dashed #7099C8"
-                borderColor={'#7099C8'}
-                borderRadius="md"
-                p={5}
-                w='381px'
-                h="71px"
-                textAlign="center"
-                cursor="pointer"
-                bg={isDragActive ? 'transparent' : 'transparent'}
-                _hover={{ bg: 'transparent', color: 'black' }}
-                ml={5}
-            >
-                <Input
-                    {...(getInputProps() as any)}
-                    type="file"
-                    display="none"
-                />
-                <VStack spacing={2}>
-                    <Text
-                        fontSize={'16px'}
-                        fontWeight="normal"
-                        color={'#A9A9A9'}
-                    >
-                        {isDragActive
-                            ? 'Drop files to upload'
-                            : 'Drop files to upload'}
-                    </Text>
+            <VStack>
+                <Box
+                    {...getRootProps()}
+                    border="1px dashed #7099C8"
+                    borderColor={'#7099C8'}
+                    borderRadius="md"
+                    p={5}
+                    w="381px"
+                    h="71px"
+                    textAlign="center"
+                    cursor="pointer"
+                    bg={isDragActive ? 'transparent' : 'transparent'}
+                    _hover={{ bg: 'transparent', color: 'black' }}
+                    ml={5}
+                >
+                    <Input
+                        {...(getInputProps() as any)}
+                        type="file"
+                        display="none"
+                    />
+                    <VStack spacing={2}>
+                        <Text
+                            fontSize={'16px'}
+                            fontWeight="normal"
+                            color={'#A9A9A9'}
+                        >
+                            {isDragActive
+                                ? 'Drop files to upload'
+                                : 'Drop files to upload'}
+                        </Text>
+                    </VStack>
+                </Box>
 
-                    {value?.length > 0 && (
-                        <List spacing={1} w="full" textAlign="left" pt={2}>
-                            {value.map((file: File, index: number) => (
-                                <ListItem key={index}>{file.name}</ListItem>
-                            ))}
-                        </List>
-                    )}
-                </VStack>
-            </Box>
+                {value?.length > 0 && (
+                    <List spacing={1} w="full" textAlign="left" pt={2} ml={10} textColor={'#7099C8'}>
+                        {value.map((file: File, index: number) => (
+                            <ListItem key={index}>{file.name}</ListItem>
+                        ))}
+                    </List>
+                )}
+            </VStack>
         </HStack>
     )
 }

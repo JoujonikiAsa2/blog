@@ -7,23 +7,24 @@ import { CiMenuKebab } from "react-icons/ci";
 
 
 const BlogCard = ({ data }: { data: TBlogPost }) => {
+    console.log(data)
     return (
         <Flex
             direction={'column'}
-            gap={4}
             background={'#FFFFFF'}
             maxWidth={416}
-            maxHeight={700}
+            height={510}
             border={'1px solid #A8C8E1'}
             borderRadius={'16px'}
             py={5}
             px={4}
+            justify={'space-between'}
+            boxShadow={'0px 4px 12px rgba(0, 0, 0, 0.1)'}
         >
             <Flex direction={'column'} gap={2}>
                 <Flex justify={'space-between'} align={'center'}>
                     <Text fontSize={20} fontWeight={700}>
-                        {data.blogTitle.slice(0, 36)}
-                        {data.blogTitle.length > 40 ? '...' : ''}
+                        {data.blogtitle}
                     </Text>
                     <CiMenuKebab />
                 </Flex>
@@ -33,7 +34,7 @@ const BlogCard = ({ data }: { data: TBlogPost }) => {
                         bgColor="#003B95"
                         width={'content-fit'}
                         height={6}
-                        text={data.category}
+                        text={data?.category}
                         sx={{
                             borderRadius: '100px',
                             fontSize: '12px',
@@ -45,7 +46,7 @@ const BlogCard = ({ data }: { data: TBlogPost }) => {
                         bgColor="#003B95"
                         width={'content-fit'}
                         height={6}
-                        text={data.subCategory}
+                        text={data?.subcategory}
                         sx={{
                             borderRadius: '100px',
                             fontSize: '12px',
@@ -54,13 +55,13 @@ const BlogCard = ({ data }: { data: TBlogPost }) => {
                     />
                 </HStack>
                 <Text fontSize={16} fontWeight={400}>
-                    {data.summary}{' '}
+                    {data?.summary}{' '}
                 </Text>
             </Flex>
             <Box bg={'#C4E0EE'} borderRadius={'16px'}>
                 <Text color={'#536471'} py={'21px'} px={'13px'}>
                     <Text as={'p'} fontSize={14}>
-                        {data.mainContent.slice(0, 200)}...{' '}
+                        {data?.maincontent?.slice(0, 200)}...{' '}
                     </Text>
                     <Text
                         as={'span'}
@@ -99,8 +100,8 @@ const BlogCard = ({ data }: { data: TBlogPost }) => {
             </Flex>
             <Flex
                 justify={'space-between'}
-                draggable={true}
-                scrollSnapAlign={'start'}
+                align={'center'}
+                gap={2}
             >
                 <Flex gap={2} align={'center'}>
                     <Image
@@ -111,12 +112,12 @@ const BlogCard = ({ data }: { data: TBlogPost }) => {
                         borderRadius={'100px'}
                     />
                     <Box fontSize={'12px'} fontWeight={500}>
-                        <Text>{data.authorName}</Text>
+                        <Text>{data?.authorname}</Text>
                         <Text>
                             Published on:{' '}
                             <Text as={'span'} color={'#003B95'}>
                                 {new Date(
-                                    data.publicationDate,
+                                    data.publicationdate,
                                 ).toLocaleDateString('en-US', {
                                     month: 'short',
                                     day: '2-digit',

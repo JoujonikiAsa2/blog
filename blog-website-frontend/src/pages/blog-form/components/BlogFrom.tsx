@@ -18,7 +18,7 @@ export const BlogFrom = ({ onSubmit, control }: TBlogFromProps) => {
         <CustomForm onSubmit={onSubmit}>
             <VStack spacing={2} alignItems={'start'}>
                 <CustomTextInput
-                    name="Author Name"
+                    name="authorname"
                     type="text"
                     label="Author Name"
                     inputWidth={'410px'}
@@ -26,7 +26,7 @@ export const BlogFrom = ({ onSubmit, control }: TBlogFromProps) => {
                 />
                 <HStack width={'100%'}>
                     <CustomTextInput
-                        name="blogTitle"
+                        name="blogtitle"
                         type="text"
                         label="Blog Title"
                         inputWidth={'410px'}
@@ -42,7 +42,7 @@ export const BlogFrom = ({ onSubmit, control }: TBlogFromProps) => {
                         data={[]}
                     />
                     <CustomSelect
-                        name="subCategory"
+                        name="subcategory"
                         label="Sub-category"
                         inputWidth={210}
                         placeholder="-Select other options-"
@@ -58,7 +58,7 @@ export const BlogFrom = ({ onSubmit, control }: TBlogFromProps) => {
                         placeholder="Type here"
                     />
                     <CustomSelect
-                        name="travelTags"
+                        name="traveltags"
                         label="Travel tags:"
                         inputWidth={210}
                         placeholder="-Select other options-"
@@ -66,14 +66,14 @@ export const BlogFrom = ({ onSubmit, control }: TBlogFromProps) => {
                     />
                 </HStack>
                 <CustomTextArea
-                    name="mainContent"
+                    name="maincontent"
                     label="Main Content"
                     inputWidth={'786px'}
                     inputHeight={'169px'}
                     placeholder="Write your blog content here"
                 />
                 <FileUploader
-                    name="file"
+                    name="images"
                     label="Upload Image"
                     control={control}
                 />

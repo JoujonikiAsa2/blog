@@ -6,11 +6,10 @@ import { Link } from 'react-router-dom'
 import BlogSearch from './components/BlogSearch'
 import { useEffect, useState } from 'react'
 import { TBlogPost } from '@/types/blog'
-
 export default function BlogPage() {
     const [blogs, setBlogs] = useState([])
     useEffect(() => {
-        fetch('https://mocki.io/v1/6980f260-499d-417f-997e-12df0069e3ed')
+        fetch('http://localhost:3000/api/blogs')
             .then(res => {
                 return res.json()
             })
@@ -22,7 +21,7 @@ export default function BlogPage() {
 
     console.log(blogs)
     return (
-        <Box background={'#E0F7FA'} fontFamily={'Inter'}>
+        <Box background={'#E0F7FA'} fontFamily={'Inter'} minHeight={'100vh'}>
             <Flex
                 maxWidth={1512}
                 direction={'column'}
@@ -40,7 +39,7 @@ export default function BlogPage() {
                     justifyContent={'center'}
                     justifyItems={'center'}
                 >
-                    {blogs.slice(0,9)
+                    {blogs && blogs?.slice(0,9)
                         .map((blog:TBlogPost, index) => (
                             <GridItem key={index}>
                                 <BlogCard key={index} data={blog}/>

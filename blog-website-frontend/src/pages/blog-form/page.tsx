@@ -3,12 +3,26 @@ import { FieldValues, useForm } from 'react-hook-form'
 import { BlogFrom } from './components/BlogFrom'
 
 export default function BlogForm() {
-    const {  control } = useForm<FormData>();
+    const { control } = useForm<FormData>()
 
     const onSubmit = (data: FieldValues) => {
         const fileNames = control._formValues?.file
         data.file = fileNames
-        console.log({ data })
+        fetch('http://localhost:3000/api/blogs', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(data),
+        })
+            .then(res => {
+                console.log(res)
+                return res.json()
+            })
+            .then(data => {
+                console.log('Success:', data)
+                console.log(data)
+            })
     }
 
     return (
@@ -22,7 +36,7 @@ export default function BlogForm() {
                 >
                     Blog Form
                 </Text>
-                <BlogFrom onSubmit={onSubmit} control={control}/>
+                <BlogFrom onSubmit={onSubmit} control={control} />
             </Box>
         </Box>
     )

@@ -12,11 +12,11 @@ export const CustomDatePicker = ({ label }: any) => {
     console.log(new Date())
     return (
         <Controller
-            name="publicationDate"
+            name="publicationdate"
             render={({ field }) => (
                 <FormControl mb="4" width={'100%'} display={'flex'}>
                     <FormLabel
-                        htmlFor="publicationDate"
+                        htmlFor="publicationdate"
                         width={210}
                         fontSize={'25px'}
                         fontWeight={'normal'}

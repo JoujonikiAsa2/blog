@@ -30,7 +30,12 @@ export const CustomButton = ({
             color={color}
             width={width}
             height={height}
-            sx={sx}
+            sx={{
+                ...sx,
+                _hover: {
+                    bg: bgColor,
+                },
+            }}
         >
             <Flex alignItems={'center'} gap={2}>
                 <Text>{text}</Text>
