@@ -4,14 +4,29 @@ import { CustomButton } from '@/components/custom/CustomButton'
 import { IoIosArrowBack, IoIosArrowForward } from 'react-icons/io'
 import { Link } from 'react-router-dom'
 import BlogSearch from './components/BlogSearch'
+import { useEffect, useState } from 'react'
+import { TBlogPost } from '@/types/blog'
 
 export default function BlogPage() {
+    const [blogs, setBlogs] = useState([])
+    useEffect(() => {
+        fetch('https://mocki.io/v1/6980f260-499d-417f-997e-12df0069e3ed')
+            .then(res => {
+                return res.json()
+            })
+            .then(data => {
+                console.log(data)
+                setBlogs(data)
+            })
+    }, [])
+
+    console.log(blogs)
     return (
         <Box background={'#E0F7FA'} fontFamily={'Inter'}>
             <Flex
                 maxWidth={1512}
                 direction={'column'}
-                gap={120}
+                gap={100}
                 mx={'auto'}
                 px={75}
                 pt={57}
@@ -25,11 +40,10 @@ export default function BlogPage() {
                     justifyContent={'center'}
                     justifyItems={'center'}
                 >
-                    {Array(9)
-                        .fill(0)
-                        .map((_, index) => (
+                    {blogs.slice(0,9)
+                        .map((blog:TBlogPost, index) => (
                             <GridItem key={index}>
-                                <BlogCard key={index} />
+                                <BlogCard key={index} data={blog}/>
                             </GridItem>
                         ))}
                 </Grid>

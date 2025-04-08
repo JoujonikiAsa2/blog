@@ -1,9 +1,12 @@
 import { CustomButton } from '@/components/custom/CustomButton'
+import { TBlogPost } from '@/types/blog'
 import { Box, Flex, HStack, Image, Text } from '@chakra-ui/react'
 import { BookmarkIcon, Eye, HeartIcon } from 'lucide-react'
-import { BiMessageRoundedAdd } from "react-icons/bi";
+import { BiMessageRoundedAdd } from 'react-icons/bi'
+import { CiMenuKebab } from "react-icons/ci";
 
-const BlogCard = () => {
+
+const BlogCard = ({ data }: { data: TBlogPost }) => {
     return (
         <Flex
             direction={'column'}
@@ -17,14 +20,20 @@ const BlogCard = () => {
             px={4}
         >
             <Flex direction={'column'} gap={2}>
-                <Text fontSize={'20px'}>Blog Card</Text>
+                <Flex justify={'space-between'} align={'center'}>
+                    <Text fontSize={20} fontWeight={700}>
+                        {data.blogTitle.slice(0, 36)}
+                        {data.blogTitle.length > 40 ? '...' : ''}
+                    </Text>
+                    <CiMenuKebab />
+                </Flex>
                 <HStack>
                     <CustomButton
                         color="white"
                         bgColor="#003B95"
                         width={'content-fit'}
                         height={6}
-                        text="Category"
+                        text={data.category}
                         sx={{
                             borderRadius: '100px',
                             fontSize: '12px',
@@ -36,7 +45,7 @@ const BlogCard = () => {
                         bgColor="#003B95"
                         width={'content-fit'}
                         height={6}
-                        text="Adventure Travel"
+                        text={data.subCategory}
                         sx={{
                             borderRadius: '100px',
                             fontSize: '12px',
@@ -44,19 +53,24 @@ const BlogCard = () => {
                         }}
                     />
                 </HStack>
-                <Text fontSize={'16px'}>Summary </Text>
+                <Text fontSize={16} fontWeight={400}>
+                    {data.summary}{' '}
+                </Text>
             </Flex>
             <Box bg={'#C4E0EE'} borderRadius={'16px'}>
-                <Text
-                    color={'#536471'}
-                    py={'21px'}
-                    px={'13px'}
-                    fontSize={'14px'}
-                >
-                    Explore the breathtaking views and thrilling experiences of
-                    hiking through the majestic Alps. From scenic trails to
-                    challenging peaks, discover why this adventure is a must for
-                    nature enthusiasts...
+                <Text color={'#536471'} py={'21px'} px={'13px'}>
+                    <Text as={'p'} fontSize={14}>
+                        {data.mainContent.slice(0, 200)}...{' '}
+                    </Text>
+                    <Text
+                        as={'span'}
+                        color={'#003B95'}
+                        textDecoration={'underline'}
+                        fontSize={14}
+                    >
+                        {' '}
+                        ReadMore
+                    </Text>
                 </Text>
             </Box>
             <Flex justifyContent={'space-between'} color={'#536471'}>
@@ -78,10 +92,7 @@ const BlogCard = () => {
                     <BookmarkIcon />
                 </Flex>
             </Flex>
-            <Flex
-                justify={'space-between'}
-                gap={2}
-            >
+            <Flex justify={'space-between'} gap={2}>
                 <Box bgColor={'#C40FF0'} width={177} height={120}></Box>
                 <Box bgColor={'#C40FF0'} width={177} height={120}></Box>
                 <Box bgColor={'#C40FF0'} width={177} height={120}></Box>
@@ -100,8 +111,19 @@ const BlogCard = () => {
                         borderRadius={'100px'}
                     />
                     <Box fontSize={'12px'} fontWeight={500}>
-                        <Text>Author Name</Text>
-                        <Text>Published on: December 15, 2024</Text>
+                        <Text>{data.authorName}</Text>
+                        <Text>
+                            Published on:{' '}
+                            <Text as={'span'} color={'#003B95'}>
+                                {new Date(
+                                    data.publicationDate,
+                                ).toLocaleDateString('en-US', {
+                                    month: 'short',
+                                    day: '2-digit',
+                                    year: 'numeric',
+                                })}
+                            </Text>
+                        </Text>
                     </Box>
                 </Flex>
                 <Box>
@@ -111,7 +133,7 @@ const BlogCard = () => {
                         bgColor="#003B95"
                         width={'100px'}
                         height={'30px'}
-                        icon={<BiMessageRoundedAdd  color='white' size={16} />}
+                        icon={<BiMessageRoundedAdd color="white" size={16} />}
                         sx={{
                             borderRadius: '100px',
                             fontSize: '12px',

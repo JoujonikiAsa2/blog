@@ -2,7 +2,7 @@
     {
         "authorName": "John Doe",
         "blogTitle": "Exploring the Hidden Gems of Bali",
-        "publicationDate": "15/10/2025",
+        "publicationDate": "2025-04-08T18:00:00.000Z",
         "category": "Travel",
         "subCategory": ["Adventure", "Culture"],
         "summary": "A journey through Bali's lesser-known spots, from hidden waterfalls to ancient temples.",
@@ -16,7 +16,7 @@
     {
         "authorName": "Sarah Smith",
         "blogTitle": "A Foodie’s Guide to Tokyo",
-        "publicationDate": "20/09/2025",
+        "publicationDate": "2025-04-08T18:00:00.000Z",
         "category": "Food",
         "subCategory": ["Cuisine", "City Guide"],
         "summary": "Discover the best street food and hidden restaurants in Tokyo.",
@@ -30,7 +30,7 @@
     {
         "authorName": "Michael Brown",
         "blogTitle": "Hiking the Inca Trail to Machu Picchu",
-        "publicationDate": "05/08/2025",
+        "publicationDate": "2025-04-08T18:00:00.000Z",
         "category": "Travel",
         "subCategory": ["Adventure", "History"],
         "summary": "A detailed account of my four-day hike to the ancient ruins of Machu Picchu.",
@@ -44,7 +44,7 @@
     {
         "authorName": "Emily Johnson",
         "blogTitle": "The Best Cafes in Paris for Digital Nomads",
-        "publicationDate": "12/07/2025",
+        "publicationDate": "2025-04-08T18:00:00.000Z",
         "category": "Lifestyle",
         "subCategory": ["Work", "City Guide"],
         "summary": "A curated list of Paris cafes perfect for remote work.",
@@ -58,7 +58,7 @@
     {
         "authorName": "David Lee",
         "blogTitle": "Skiing in the Swiss Alps: A Beginner’s Guide",
-        "publicationDate": "25/06/2025",
+        "publicationDate": "2025-04-08T18:00:00.000Z",
         "category": "Travel",
         "subCategory": ["Adventure", "Winter Sports"],
         "summary": "Tips and tricks for your first skiing trip in the Swiss Alps.",
@@ -72,7 +72,7 @@
     {
         "authorName": "Lisa Chen",
         "blogTitle": "A Weekend in New York City: The Ultimate Itinerary",
-        "publicationDate": "30/05/2025",
+        "publicationDate": "2025-04-08T18:00:00.000Z",
         "category": "Travel",
         "subCategory": ["City Guide", "Culture"],
         "summary": "How to make the most of a weekend in NYC.",
@@ -86,7 +86,7 @@
     {
         "authorName": "Mark Wilson",
         "blogTitle": "The Best Street Art in Berlin",
-        "publicationDate": "10/04/2025",
+        "publicationDate": "2025-04-08T18:00:00.000Z",
         "category": "Art",
         "subCategory": ["Culture", "City Guide"],
         "summary": "Exploring Berlin’s vibrant street art scene.",
@@ -100,7 +100,7 @@
     {
         "authorName": "Anna Taylor",
         "blogTitle": "A Guide to Sustainable Travel in Costa Rica",
-        "publicationDate": "18/03/2025",
+        "publicationDate": "2025-04-08T18:00:00.000Z",
         "category": "Travel",
         "subCategory": ["Eco-Friendly", "Adventure"],
         "summary": "How to travel sustainably in Costa Rica.",
@@ -114,7 +114,7 @@
     {
         "authorName": "James Carter",
         "blogTitle": "The Ultimate Guide to Italian Wine Tasting",
-        "publicationDate": "22/02/2025",
+        "publicationDate": "2025-04-08T18:00:00.000Z",
         "category": "Food",
         "subCategory": ["Wine", "Culture"],
         "summary": "Discover the best regions for wine tasting in Italy.",
@@ -128,7 +128,7 @@
     {
         "authorName": "Rachel Green",
         "blogTitle": "Exploring the Temples of Angkor Wat",
-        "publicationDate": "05/01/2025",
+        "publicationDate": "2025-04-08T18:00:00.000Z",
         "category": "Travel",
         "subCategory": ["History", "Culture"],
         "summary": "A guide to visiting the ancient temples of Angkor Wat.",
@@ -142,7 +142,7 @@
     {
         "authorName": "Tom Harris",
         "blogTitle": "The Best Beaches in the Maldives",
-        "publicationDate": "28/12/2024",
+        "publicationDate": "2025-04-08T18:00:00.000Z",
         "category": "Travel",
         "subCategory": ["Beach", "Luxury"],
         "summary": "A roundup of the most stunning beaches in the Maldives.",
@@ -156,7 +156,7 @@
     {
         "authorName": "Sophie Adams",
         "blogTitle": "A Photographer’s Guide to Iceland",
-        "publicationDate": "15/11/2024",
+        "publicationDate": "2025-04-08T18:00:00.000Z",
         "category": "Photography",
         "subCategory": ["Travel", "Nature"],
         "summary": "The best spots in Iceland for stunning photography.",
@@ -170,7 +170,7 @@
     {
         "authorName": "Chris Evans",
         "blogTitle": "The Best Festivals in India",
-        "publicationDate": "02/10/2024",
+        "publicationDate": "2025-04-08T18:00:00.000Z",
         "category": "Culture",
         "subCategory": ["Festivals", "Travel"],
         "summary": "A guide to experiencing India’s vibrant festivals.",
@@ -184,7 +184,7 @@
     {
         "authorName": "Laura King",
         "blogTitle": "A Road Trip Through the Australian Outback",
-        "publicationDate": "20/09/2024",
+        "publicationDate": "2025-04-08T18:00:00.000Z",
         "category": "Travel",
         "subCategory": ["Adventure", "Road Trip"],
         "summary": "An epic road trip through the heart of Australia.",
@@ -198,7 +198,7 @@
     {
         "authorName": "Peter Nguyen",
         "blogTitle": "The Best Markets in Marrakech",
-        "publicationDate": "10/08/2024",
+        "publicationDate": "2025-04-08T18:00:00.000Z",
         "category": "Travel",
         "subCategory": ["Culture", "Shopping"],
         "summary": "A guide to navigating Marrakech’s bustling souks.",
@@ -212,7 +212,7 @@
     {
         "authorName": "Emma Davis",
         "blogTitle": "A Guide to Cherry Blossom Season in Kyoto",
-        "publicationDate": "05/07/2024",
+        "publicationDate": "2025-04-08T18:00:00.000Z",
         "category": "Travel",
         "subCategory": ["Culture", "Nature"],
         "summary": "How to experience cherry blossoms in Kyoto.",
@@ -226,7 +226,7 @@
     {
         "authorName": "Alex Turner",
         "blogTitle": "The Best Diving Spots in the Great Barrier Reef",
-        "publicationDate": "18/06/2024",
+        "publicationDate": "2025-04-08T18:00:00.000Z",
         "category": "Travel",
         "subCategory": ["Adventure", "Marine Life"],
         "summary": "A diver’s guide to the Great Barrier Reef.",
@@ -240,7 +240,7 @@
     {
         "authorName": "Olivia Brown",
         "blogTitle": "A Cultural Journey Through Istanbul",
-        "publicationDate": "30/05/2024",
+        "publicationDate": "2025-04-08T18:00:00.000Z",
         "category": "Travel",
         "subCategory": ["Culture", "History"],
         "summary": "Exploring the rich history and culture of Istanbul.",
@@ -254,7 +254,7 @@
     {
         "authorName": "Henry Clark",
         "blogTitle": "The Best Hikes in Banff National Park",
-        "publicationDate": "12/04/2024",
+        "publicationDate": "2025-04-08T18:00:00.000Z",
         "category": "Travel",
         "subCategory": ["Adventure", "Nature"],
         "summary": "A guide to the best hiking trails in Banff.",
@@ -268,7 +268,7 @@
     {
         "authorName": "Mia Lewis",
         "blogTitle": "A Food Lover’s Guide to Barcelona",
-        "publicationDate": "25/03/2024",
+        "publicationDate": "2025-04-08T18:00:00.000Z",
         "category": "Food",
         "subCategory": ["Cuisine", "City Guide"],
         "summary": "The best places to eat in Barcelona.",
